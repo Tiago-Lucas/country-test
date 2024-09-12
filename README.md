@@ -2,7 +2,7 @@
 
 ### 🛠 Tecnologias
 - [Node.js] versão 20.12.2
-- [Angular.js] versão 17
+- [Angular.js] versão 16
 
 # Clone este repositório
 $ git clone <https://github.com/Tiago-Lucas/country-test.git>
