@@ -10,6 +10,7 @@ import { CardSearchComponent } from './components/card-search/card-search.compon
 import { HttpClientModule} from "@angular/common/http";
 import { DetailsComponent } from './pages/details/details.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { LoadingSpinnerComponent } from './components/loading-spinner/loading-spinner.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     HomeComponent,
     CardComponent,
     CardSearchComponent,
-    DetailsComponent
+    DetailsComponent,
+    LoadingSpinnerComponent
   ],
   imports: [
     BrowserModule,

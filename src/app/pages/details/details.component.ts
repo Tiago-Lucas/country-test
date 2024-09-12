@@ -9,6 +9,7 @@ import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 })
 export class DetailsComponent {
 
+
   faArrowLeft = faArrowLeft;
 
   country: any
@@ -18,5 +19,9 @@ export class DetailsComponent {
     const state = navigation?.extras.state as { valueCountry: any };
     this.country = state.valueCountry;
     console.log(this.country)
+  }
+
+  backPage() {
+    this.router.navigate(['home'])
   }
 }
