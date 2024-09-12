@@ -5,7 +5,7 @@
 - [Angular.js] versão 17
 
 # Clone este repositório
-$ git clone <https://github.com/Tiago-Lucas/usina-play>
+$ git clone <https://github.com/Tiago-Lucas/country-test.git>
 
 # Instale as dependências
 $ npm install
