@@ -1,6 +1,14 @@
 # AppCountry
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
+### 🛠 Tecnologias
+- [Node.js] versão 20.12.2
+- [Angular.js] versão 16
+
+# Clone este repositório
+$ git clone <https://github.com/Tiago-Lucas/country-test.git>
+
+# Instale as dependências
+$ npm install
 
 ## Development server
 
