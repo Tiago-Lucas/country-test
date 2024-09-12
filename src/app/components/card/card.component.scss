@@ -1,0 +1,28 @@
+.container {
+  box-shadow: 0 0 10px 0 #a9a9a9;
+  border-radius: 5px;
+  display: flex;
+  width: 280px;
+  height: 400px;
+  flex-direction: column;
+  margin: 40px 30px;
+  background-color: #ffff;
+
+  img {
+    border-radius: 5px 5px 0 0;
+    width: 280px;
+    height: 200px;
+  }
+
+  .container-info {
+    padding: 20px;
+
+    ul {
+      padding: 0;
+
+      li{
+        list-style-type: none;
+      }
+    }
+  }
+}

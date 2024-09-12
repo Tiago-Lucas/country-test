@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="container-search-input" (input)="search($event)">
+    <fa-icon [icon]="faSearch"></fa-icon>
+  <input placeholder="Search for a country..." #searchInput />
+  </div>
+  <div class="container-search-selected">
+    <select  id="filter-region" (change)="regionChange($event)">
+      <option value="" disabled selected hidden>Filter by Region</option>
+      <option value="WorldWide">WorldWide</option>
+      <option value="Africa">Africa</option>
+      <option value="Americas">Americas</option>
+      <option value="Asia">Asia</option>
+      <option value="Europe">Europe</option>
+      <option value="Oceania">Oceania</option>
+    </select>
+  </div>
+</div>

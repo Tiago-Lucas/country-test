@@ -1,0 +1,36 @@
+<div class="container">
+  <button><fa-icon [icon]="faArrowLeft"></fa-icon>Back</button>
+  <div class="container-details">
+    <img [src]="country.flags.svg"/>
+    <div class="container-info">
+      <div class="container-list">
+        <div>
+          <h1>{{ country.name }}</h1>
+          <ul>
+            <li>Native Name:<span> {{ country.nativeName }}</span></li>
+            <li>Population:<span> {{ country.population }}</span></li>
+            <li>Region:<span> {{ country.region }}</span></li>
+            <li>Sub Region:<span> {{ country.subregion }}</span></li>
+            <li>Capital:<span> {{ country.capital }}</span></li>
+            <li></li>
+          </ul>
+        </div>
+        <div class="list-2">
+          <ul>
+            <li>Top Level Domain:<span> {{ country.topLevelDomain }}</span></li>
+            <li>Currencies: <span>{{ country.currencies[0].name }}</span></li>
+            <li>Languages: <span>{{ country.languages[0].name }}</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container-border-countries">
+        <h2> Border Countries: </h2>
+        <div class="container-border">
+          <div class="borders" *ngFor="let borders of country.borders">
+            <span>{{borders}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

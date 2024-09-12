@@ -1,0 +1,14 @@
+<div class="container">
+<app-card-search (searchEvent)="filterCountries($event)" (regionChangeEvent)="filterByRegion($event)"></app-card-search>
+<div class="container-card">
+  <app-card *ngFor="let arrayCountry of filteredCountries" (click)="nextPage(arrayCountry)"
+            [flag]="arrayCountry.flags.png"
+            [country]="arrayCountry.name"
+            [population]="arrayCountry.population"
+            [region]="arrayCountry.region"
+            [capital]="arrayCountry.capital"
+  >
+
+  </app-card>
+</div>
+</div>

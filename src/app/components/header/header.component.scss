@@ -1,0 +1,20 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: -20px;
+  padding: 0 40px;
+  height: 80px;
+  align-items: center;
+  box-shadow: 0 0 10px 0 #a9a9a9;
+
+  h1{
+    font-size: 20px;
+    padding: 10px 0 0 20px;
+    margin: 0;
+  }
+
+  button{
+    width: 100px;
+    height: 20px;
+  }
+}

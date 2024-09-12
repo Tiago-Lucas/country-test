@@ -1,1 +1,128 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  font-style: normal;
+}
+
+li {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  margin: 5px 0;
+}
+
+span {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+  background-color: #f0f2f5;
+  overflow-x: hidden;
+}
+
+textarea:focus, input:focus, select:focus {
+  outline: none;
+  border: none;
+}
+
+@media (max-width: 850px) {
+
+  app-card{
+    img {
+      height: 250px !important;
+    }
+  }
+
+  app-card-search {
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+
+      .container-search-input{
+        width: 100% !important;
+        margin-bottom: 30px;
+        input{
+          width: 250px;
+        }
+      }
+
+      .container-search-selected{
+        width: 200px;
+
+      }
+
+    }
+  }
+  app-home {
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .container-card {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+    }
+  }
+
+  app-details{
+    .container{
+      display: flex;
+      flex-direction: column;
+
+      .container-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        img{
+          width: 100% !important;
+          height: 200px !important;
+        }
+        .container-info{
+          padding: 20px 0 !important;
+
+          .container-list{
+            display: flex;
+            flex-direction: column;
+
+            width:100% !important;
+
+            .list-2{
+              padding: 0 !important;
+            }
+          }
+          .container-border-countries{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start !important;
+
+            .borders{
+              margin: 5px 0 !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
