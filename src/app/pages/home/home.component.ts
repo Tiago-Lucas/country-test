@@ -21,6 +21,7 @@ export class HomeComponent implements OnInit{
   ngOnInit() {
     this.countryService.allCountries().subscribe({
       next: res => {
+        console.log(res)
         this.arrayCountries = res
         this.filteredCountries = this.arrayCountries
       },
